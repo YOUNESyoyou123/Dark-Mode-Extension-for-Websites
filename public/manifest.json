@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "dark mode",
+  "description": "Make any page that doesn't have dark mode to dark mode",
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "16": "image/ouvrier-du-batiment.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
